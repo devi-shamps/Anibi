@@ -3,7 +3,9 @@
 function controleurPrincipal($action) {
     $lesActions = array();
     $lesActions["defaut"] = "connexion.php";
-    $lesActions["connexion"] = "connexion.php";
+    $lesActions["connexion"] = "listeExpos.php";
+    $lesActions["deconnexion"] = "deconnexion.php";
+    $lesActions["listeexpo"] = "listeExpos.php";
 
     
     
